@@ -32,7 +32,7 @@ La estructura del usuario Facebook es la siguiente:
     }
 Para el acceso a la información Facebook provee el método:
 
-    public List<FacebookUser> getFacebook();
+    public List<FacebookUser> getFacebookUsers();
 
 En un futuro la empresa CRE tiene pensado contratar a Alenasoft para publicar información de montos a pagar de sus clientes
 La estructura que usa CRE para este caso es:

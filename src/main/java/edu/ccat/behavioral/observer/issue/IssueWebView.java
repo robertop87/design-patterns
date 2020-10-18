@@ -1,7 +1,5 @@
 package edu.ccat.behavioral.observer.issue;
 
-import java.util.Timer;
-
 public class IssueWebView {
 
   private Model model;

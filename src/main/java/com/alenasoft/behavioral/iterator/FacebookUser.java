@@ -1,4 +1,4 @@
-package edu.ccat.behavioral.iterator;
+package com.alenasoft.behavioral.iterator;
 
 public class FacebookUser {
 
@@ -7,7 +7,7 @@ public class FacebookUser {
 
   public FacebookUser(String fbName) {
     this.fbName = fbName;
-    this.fbUrl = "http://facebook.com/profile/" + fbName;
+    this.fbUrl = "https://facebook.com/profile/" + fbName;
   }
 
   @Override
