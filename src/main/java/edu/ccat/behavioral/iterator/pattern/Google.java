@@ -1,6 +1,6 @@
 package edu.ccat.behavioral.iterator.pattern;
 
-import edu.ccat.behavioral.iterator.GoogleUser;
+import com.alenasoft.behavioral.iterator.GoogleUser;
 
 public class Google implements Aggregate {
 

@@ -1,13 +1,12 @@
-package edu.ccat.behavioral.iterator.issue;
+package com.alenasoft.behavioral.iterator;
 
-import edu.ccat.behavioral.iterator.GoogleUser;
+import edu.ccat.behavioral.iterator.issue.Iterator;
 
 public class GoogleApi {
 
   public static int index = -1;
 
   public static GoogleUser[] getGoogleUsers() {
-    // Retorna un lista simulada de usuarios de google
     GoogleUser[] googlers = { new GoogleUser("Danae", "d@gmail.com"),
         new GoogleUser("Joaquin", "j@gmail.com"),
         new GoogleUser("Brian", "b@gmail.com")

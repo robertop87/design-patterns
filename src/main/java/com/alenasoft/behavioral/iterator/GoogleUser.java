@@ -1,4 +1,4 @@
-package edu.ccat.behavioral.iterator;
+package com.alenasoft.behavioral.iterator;
 
 public class GoogleUser {
 

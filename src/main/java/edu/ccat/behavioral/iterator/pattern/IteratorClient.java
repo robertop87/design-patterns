@@ -1,8 +1,5 @@
 package edu.ccat.behavioral.iterator.pattern;
 
-import edu.ccat.behavioral.iterator.FacebookUser;
-import edu.ccat.behavioral.iterator.GoogleUser;
-
 public class IteratorClient {
 
   public static void main(String[] args) {
