@@ -38,6 +38,6 @@ public class Model {
   }
 
   private void notifyObservers() {
-    this.observers.forEach(Observer::notifyChange);
+    this.observers.forEach(o -> o.notifyChange(this));
   }
 }
