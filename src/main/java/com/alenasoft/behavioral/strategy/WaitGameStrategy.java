@@ -3,7 +3,7 @@ package com.alenasoft.behavioral.strategy;
 public class WaitGameStrategy implements GameStrategy {
 
   @Override
-  public void play() {
-    System.out.println("Esperar");
+  public void play(int numberOfPlayers) {
+    System.out.println("Esperar al rival");
   }
 }

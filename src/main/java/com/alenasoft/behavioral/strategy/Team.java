@@ -12,7 +12,7 @@ public class Team {
     this.gameStrategy = gameStrategy;
   }
 
-  public void play() {
-    this.gameStrategy.play();
+  public void play(int numberOfPlayers) {
+    this.gameStrategy.play(numberOfPlayers);
   }
 }

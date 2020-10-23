@@ -2,5 +2,5 @@ package com.alenasoft.behavioral.strategy;
 
 public interface GameStrategy {
 
-  void play();
+  void play(int numberOfPlayers);
 }
